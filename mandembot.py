@@ -69,7 +69,7 @@ async def scrap(ctx, memberOne: discord.Member, memberTwo: discord.Member, *args
     memberList = [memberOne, memberTwo, *args]
     print(memberList)
     winner = random.choice(memberList)
-    response = '{} wins the scrap still'.format(winner.mention)
+    response = '{} wins the scrap styll'.format(winner.mention)
 
     await ctx.send(response)
 
